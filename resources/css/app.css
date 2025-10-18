@@ -1,0 +1,12 @@
+@import 'tailwindcss';
+
+/* Custom styles */
+.aos-init {
+    opacity: 1;
+}
+
+.aos-animate {
+    transition-property: opacity, transform;
+    transition-duration: 0.6s;
+    transition-timing-function: ease-out;
+}
