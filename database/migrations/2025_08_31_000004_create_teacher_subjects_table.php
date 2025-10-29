@@ -20,7 +20,7 @@ return new class extends Migration
             $table->boolean('is_active')->default(true);
             $table->timestamps();
 
-            $table->unique(['teacher_id', 'subject_id', 'class', 'academic_year']);
+            $table->unique(['teacher_id', 'subject_id', 'class', 'academic_year'], 'ts_unique');
         });
     }
 
